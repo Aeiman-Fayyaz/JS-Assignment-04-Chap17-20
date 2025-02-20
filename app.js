@@ -189,16 +189,30 @@ else{
 
 let largestNumber = numbers[0];
 
-for (numbers = 1 ; numbers < numbers.length ; numbers++){
-    if (numbers > largestNumber){
-        document.write(numbers + " is the largest number");
+for(let i = 0 ; i < numbers.length ; i++ ){
+    if (largestNumber < numbers [i]){
+        largestNumber = numbers [i]
     }
-   
-    
-}*/
+}
+document.write("Largest number is = " + largestNumber)*/
 
 // QUESTION 9
+// Write a program to identify the smallest number in the
+// given array.
+// A = [24, 53, 78, 91, 12].
+
 // ANSWER: 9
+
+/*let num = [38, 54, 19, 7, 9]
+
+let smallestNum = num[0];
+
+for(let i = 0 ; i < num.length ; i++){
+    if (smallestNum > num[i]){
+        smallestNum = num[i]
+    }
+}
+document.write("Smallest number is = " + smallestNum)*/
 
 // QUESTION 10
 // Write a program to print multiples of 5 ranging 1 to
